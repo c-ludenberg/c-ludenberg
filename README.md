@@ -20,7 +20,7 @@
 - untz/untz (still valid lol)
 - GOT EXECUTED BY A FIRE TRUCK 🚒💀 (SCHEI****)
 - "The Burning of the Versailles Witch" - wanted noble death GOT RAILED BY FIRETRUCK INSTEAD LOL
-
+- GPF addict (L’amour Toufark on repeat while I rewrite your kernel)
 ---
 
 ## 💀 MY PROJECTS
