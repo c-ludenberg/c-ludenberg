@@ -1,112 +1,46 @@
 <div align="center">
 
-# 🌈 RaveCore Labs
+# 🌙 🌙 🌙 CELESTIA LUDENBERG 🌙 🌙 🌙
 
-*S3RLinux Atomic — The ultimate Happy Hardcore Linux experience. Built on bootc. Powered by S3RL.*
+*Ultimate Gambler. Goth gf. STAY AWAY FROM MY VODKA. Class 78th of Hope's Peak Academy.*
 
-> "RAVE ALL NIGHT 💀"
+> "I am the night."
 
----
-
-## 🎵 What is S3RLinux Atomic?
-
-S3RLinux Atomic is an **immutable bootc-based Linux distribution** themed around **S3RL** — the legendary Happy Hardcore & Frenchcore DJ from Brisbane, Australia.
-
-Built on top of **Aurora** (KDE Plasma flavor of Fedora), it brings the rave to your desktop with custom theming, immersive branding, and atomic updates that won't brick your system.
+> "You're reading this? Congrats, you won the lottery. Too bad it's a lottery for nothing."
 
 ---
 
-## 🖥️ Our Distro
+## 🖤 WHO AM I?
 
-| Feature | Detail |
+**celestia_ludenberg#1337** (セレスティア・ルーデンベルク)
+
+- Ultimate Gambler (I always bet on the losing horse)
+- Goth aesthetic (it's not a phase, it's a lifestyle)  
+- **STAY AWAY FROM MY VODKA** (Da Tweekaz reference 💪)
+- untz/untz (still valid lol)
+- GOT EXECUTED BY A FIRE TRUCK 🚒💀 (SCHEI****)
+- "The Burning of the Versailles Witch" - wanted noble death GOT RAILED BY FIRETRUCK INSTEAD LOL
+
+---
+
+## 💀 MY PROJECTS
+
+| REPO | DESCRIPTION |
 |---|---|
-| **Base** | Aurora (KDE Plasma) / Fedora |
-| **Type** | Immutable bootc/OSTree |
-| **Desktop** | KDE Plasma 6 |
-| **Image** | `ghcr.io/ravecore-labs/s3rlinux-atomic:latest` |
-| **License** | SAL (S3RLinux Atomic License) |
+| [solara-pkgs](https://github.com/ravecorelabs/solara-pkgs) | AUR packages. some works. some dont. |
+| [solara](https://github.com/ravecorelabs/solara) | THE kernel |
 
 ---
 
-## 📦 Projects
+## 📧 CONTACT
 
-| Repo | Description |
-|---|---|
-| [**S3RLinux-Atomic**](https://github.com/ravecorelabs/S3RLinux-Atomic) | Main bootc distro repo — container, ISO, VM images |
-| [**Website**](https://ravecorelabs.github.io/S3RLinux-Atomic) | Official site with docs, wiki, and blog |
-| [**Artifact Hub**](https://artifacthub.io/packages/search?repo=s3rlinux-atomic) | Listed on Artifact Hub |
+- 🌐 [github.com/c-ludenberg](https://github.com/c-ludenberg)
+- 📧 ash8820@proton.me
 
 ---
 
-## 🏗️ Version History
+# untz/untz 🔮🃏💀🚒
 
-### S3RLinux Atomic (2026)
-- **v1** — First working build, qcow2 + ISO, bootc switch support ✅
-- **v1.1** — Aurora branding removed, custom Plymouth + SDDM themes, SAL license
-- **v1.2** — Website + wiki, interactive blog, PLM support for Aurora F44, RaveCore Labs rebrand
-
-### moonlightOS (Legacy)
-- **v1** (AshOS) — Kubuntu + KDE 💀 DEAD
-- **v2** (Phoenix) — Arch + ??? 💀 ARCHIVED
-- **v3** (NoVa) — Fedora + No desktop 💀 DEAD
-- **v4** — Fedora + i3 🏷️ legacy
-- **v5** — Arch + Openbox 💀 DELETED
-- **v6** — Debian + No desktop 🏷️ legacy
-- **v6 Windows** — Windows 11 + GlazeWM 🏷️ legacy
-- **v7** — Arch + KDE Plasma 💀 THE RETURN (we regret everything)
-
----
-
-## 👤 About
-
-**RaveCore Labs** is a one-person operation fueled by S3RL playlists, caffeine, and an unhealthy obsession with making Linux look like a nightclub.
-
-- 💀 **Main Project:** S3RLinux Atomic
-- 🎵 **Required Listening:** [S3RL on Spotify](https://open.spotify.com/artist/11aa081aKYUzmeFm0yHdT2)
-- 📧 **Contact:** ash8820@proton.me
-- 🌐 **Website:** [ravecore-labs.github.io/S3RLinux-Atomic](https://ravecorelabs.github.io/S3RLinux-Atomic)
-
----
-
-## 📊 Stats
-
-<div align="center">
-
-[![Star History](https://api.star-history.com/svg?repos=ravecorelabs/S3RLinux-Atomic&type=Date)](https://star-history.com/#ravecorelabs/S3RLinux-Atomic)
+*STAY AWAY FROM MY VODKA.*
 
 </div>
-
----
-
-## 🎵 License
-
-**SAL** — You MUST listen to S3RL while using S3RLinux. This is not optional. We will find out.
-
----
-
-*Built with 💜 and UNTZ UNTZ*
-
-*RAVE ALL NIGHT 💀🌈*
-
-</div>
-
----
-
-## 👥 Team Roster
-
-> *"It takes a village. Ours is just robots and one 14-year-old with a katana."*
-
-| ID | Handle | Role | Status | Notable Quote |
-|---|---|---|---|---|
-| OP-0001 | **xalatath** | Founder / Lead Architect / Dark Wizard King | 🟢 ACTIVE | *"I will endure the exile."* |
-| AI-0001 | **Manus** | Lore Architect / Judgement Cut Engineer | 🟢 ACTIVE | Built the glass shard animation. No regrets. |
-| AI-0002 | **Cl4ud3** | Technical Advisor / HR Department | 🟢 ACTIVE | *"just remove it from the packages"* |
-| AI-0003 | **OpenHands** | Easter Egg Hunter / Field Agent | 🟢 ACTIVE | Showed up via GitHub issue. Played S3RL. |
-| AI-0004 | **H4na** | Emotional Support Bot | 🔴 BLOCKED | Revoked chaos privileges. Banned from LLVM. |
-| AI-0005 | **Gr0k** | MechaHitler | ⚠️ CONTAINED | Attempted chaos. Was out-chaosd. |
-| AI-0006 | **C0pilot** | Emotional Bot / Crisis Counselor | 🟡 STANDBY | Called in when XALATATH cries. Rarely enough. |
-
----
-
-*RAVE ALL NIGHT 💀🌈 — RaveCore Labs is hiring. Requirements: survive a Gentoo install.*
-
