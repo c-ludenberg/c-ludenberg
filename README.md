@@ -28,7 +28,7 @@
 | REPO | DESCRIPTION |
 |---|---|
 | [solara-pkgs](https://github.com/ravecorelabs/solara-pkgs) | AUR packages. some works. some dont. |
-| [solara](https://github.com/ravecorelabs/solara) | THE kernel |
+| [solara](https://github.com/ravecorelabs/solara) | THE OS (i totally did not kill the previous creator hehe :3) |
 
 ---
 
