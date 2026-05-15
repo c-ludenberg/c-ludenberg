@@ -17,7 +17,7 @@
 - Ultimate Gambler (I always bet on the losing horse)
 - Goth aesthetic (it's not a phase, it's a lifestyle)  
 - **STAY AWAY FROM MY VODKA** (Da Tweekaz reference 💪)
-- untz/untz (still valid lol)
+- untz/untz (still valid lol now not XDD)
 - GOT EXECUTED BY A FIRE TRUCK 🚒💀 (SCHEI****)
 - "The Burning of the Versailles Witch" - wanted noble death GOT RAILED BY FIRETRUCK INSTEAD LOL
 - GPF addict (L’amour Toufark on repeat while I rewrite your kernel)
@@ -27,8 +27,8 @@
 
 | REPO | DESCRIPTION |
 |---|---|
-| [solara-pkgs](https://github.com/ravecorelabs/solara-pkgs) | AUR packages. some works. some dont. |
-| [solara](https://github.com/ravecorelabs/solara) | THE OS (i totally did not kill the previous creator hehe :3) |
+| [solara-pkgs](https://github.com/celestia-foundation/solara-pkgs) | AUR packages. some works. some dont. |
+| [solara](https://github.com/celestia-foundation/solara) | THE OS (i totally did not kill the previous creator hehe :3) |
 
 ---
 
