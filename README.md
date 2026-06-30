@@ -1,46 +1,50 @@
-<div align="center">
+# Celestia Ludenberg
 
-# 🌙 🌙 🌙 CELESTIA LUDENBERG 🌙 🌙 🌙
+*Michał • Poland • Linux*
 
-*Ultimate Gambler. Goth gf. STAY AWAY FROM MY VODKA. Class 78th of Hope's Peak Academy.*
+Solo maintainer of [Antergos NeXT](https://github.com/Antergos-NeXT) — a community revival of the Antergos distro, built on Artix Linux with OpenRC and KDE Plasma.
 
-> "I am the night."
 
-> "You're reading this? Congrats, you won the lottery. Too bad it's a lottery for nothing."
+## About
 
----
+- First Linux experience in 2023 with Pop!_OS
+- Fell down the rabbit hole, ended up maintaining a distro
+- Polish, speak English too
+- Go by Celestia online, Michał in real life
+- Build ISOs on an MSI GV72 8RE, main PC is a Ryzen 5 7600X + RTX 3060
 
-## 🖤 WHO AM I?
+## Now Playing
 
-**celestia_ludenberg#1337** (セレスティア・ルーデンベルク)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=316rxblgv6654dronfhvne6fvivm&cover_image=true&theme=apple&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&mode=dark)](https://github.com/kittinan/spotify-github-profile)
 
-- Ultimate Gambler (I always bet on the losing horse)
-- Goth aesthetic (it's not a phase, it's a lifestyle)  
-- **STAY AWAY FROM MY VODKA** (Da Tweekaz reference 💪)
-- untz/untz (still valid lol now not XDD)
-- GOT EXECUTED BY A FIRE TRUCK 🚒💀 (SCHEI****)
-- "The Burning of the Versailles Witch" - wanted noble death GOT RAILED BY FIRETRUCK INSTEAD LOL
-- GPF addict (L’amour Toufark on repeat while I rewrite your kernel)
----
+## Current Focus
 
-## 💀 MY PROJECTS
+- Shipping stable Antergos NeXT ISOs
+- Calamares installer tweaks (offline + online netinstall)
+- Keeping the Polish Linux community fed
 
-| REPO | DESCRIPTION |
+## Favorite Tools
+
+| Tool | Reason |
 |---|---|
-| [solara-pkgs](https://github.com/celestia-foundation/solara-pkgs) | AUR packages. some works. some dont. |
-| [solara](https://github.com/celestia-foundation/solara) | THE OS (i totally did not kill the previous creator hehe :3) |
+| KDE Plasma 6.7 | Wayland, customization, not GNOME |
+| Neovim | Terminal > GUI |
+| Calamares | Best installer framework |
+| artools (buildiso) | It works (mostly) |
+| Ryzen 5 7600X | 12 threads, 5.65 GHz, zero chill |
+
+## Projects
+
+| Repo | Description |
+|---|---|
+| [antergos-iso](https://github.com/Antergos-NeXT/antergos-iso) | Live ISO — Artix, OpenRC, KDE Plasma, Calamares |
+| [antergos-packages](https://github.com/Antergos-NeXT/antergos-packages) | Custom package repo |
+| [solara](https://github.com/celestia-foundation/solara) | Linux distro |
+| [solara-pkgs](https://github.com/celestia-foundation/solara-pkgs) | AUR packages |
+
+## Contact
+
+- ash8820@proton.me
 
 ---
-
-## 📧 CONTACT
-
-- 🌐 [github.com/c-ludenberg](https://github.com/c-ludenberg)
-- 📧 ash8820@proton.me
-
----
-
-# untz/untz 🔮🃏💀🚒
-
-*STAY AWAY FROM MY VODKA.*
-
-</div>
+🇵🇱
