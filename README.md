@@ -1,6 +1,6 @@
-# Celestia Ludenberg
+# Michał
 
-*Michał • Poland • Linux*
+*Poland • Linux*
 
 Solo maintainer of [Antergos NeXT](https://github.com/Antergos-NeXT) — a community revival of the Antergos distro, built on Artix Linux with OpenRC and KDE Plasma.
 
