@@ -39,7 +39,7 @@ Solo maintainer of [Antergos NeXT](https://github.com/Antergos-NeXT) — a commu
 
 | Repo | Description |
 |---|---|
-| [antergos-iso](https://github.com/Antergos-NeXT/antergos-iso) | Live ISO — Artix, OpenRC, KDE Plasma, Calamares |
+| [antergos-iso](https://github.com/Antergos-NeXT/antergos-iso) | Live ISO — Artix, dinit, KDE Plasma, Calamares |
 | [antergos-packages](https://github.com/Antergos-NeXT/antergos-packages) | Custom package repo |
 | [solara](https://github.com/celestia-foundation/solara) | Linux distro (before Antergos NeXT & not maintained.... kinda) |
 | [solara-pkgs](https://github.com/celestia-foundation/solara-pkgs) | AUR packages for Solara (not maintained) |
