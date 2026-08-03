@@ -6,6 +6,8 @@ Solo maintainer of [Antergos NeXT](https://github.com/Antergos-NeXT) — a commu
 
 [PGP Key](publickey.asc)
 
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=c-ludenberg&custom_title=hi%20%3A3%20look%20at%20my%20stats&show_icons=true&include_all_commits=true&theme=ambient_gradient)](https://github-stats-extended.vercel.app/api?username=c-ludenberg&custom_title=hi%20%3A3%20look%20at%20my%20stats&show_icons=true&include_all_commits=true&theme=ambient_gradient)
+
 ## About
 
 - First Linux experience in 2023 with Pop!_OS
