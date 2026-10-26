@@ -2,7 +2,7 @@
 
 *Poland • Linux • Musl/LLVM*
 
-Solo maintainer of [Euri Linux: Horizon](https://git.euri-linux.pl/Euri-Linux) — a from-scratch musl/LLVM distro with `dinit`, `apk`, and Niri. *(GitHub mirror is planned, but we self-host on Forgejo/cgit like actual sane people).*
+Solo maintainer of [Euri Linux: Horizon](https://git.euri-linux.pl/Euri-Linux) — a from-scratch musl/LLVM distro with `dinit`, `apk`, and Niri + Hyprland. *(GitHub mirror is planned, but we self-host on Forgejo/cgit like actual sane people).*
 
 [PGP Key](publickey.asc)
 
