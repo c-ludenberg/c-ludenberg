@@ -1,8 +1,8 @@
 # Michał
 
-*Poland • Linux*
+*Poland • Linux • Musl/LLVM*
 
-Solo maintainer of [Euri Linux](https://github.com/Euri-Linux) — built on Artix Linux with dinit and KDE Plasma and many more.
+Solo maintainer of [Euri Linux: Horizon](https://git.euri-linux.pl/Euri-Linux) — a from-scratch musl/LLVM distro with `dinit`, `apk`, and Niri. *(GitHub mirror is planned, but we self-host on Forgejo/cgit like actual sane people).*
 
 [PGP Key](publickey.asc)
 
@@ -11,10 +11,11 @@ Solo maintainer of [Euri Linux](https://github.com/Euri-Linux) — built on Arti
 ## About
 
 - First Linux experience in 2023 with Pop!_OS
-- Fell down the rabbit hole, ended up maintaining a distro (i maintained many more than Euri)
-- Polish, speak English too
-- Build ISOs on an MSI GV72 8RE, main PC is a Ryzen 5 7600X + RTX 3060
-- Gentoo User
+- Fell down the rabbit hole, ended up building a whole distro from scratch (Horizon 26.11).
+- Polish, speak English too.
+- Main PC (`noctis`): Ryzen 5 7600X @ 5.61GHz + RTX 3060 (NVK), running Chimera Linux.
+- Ex-Gentoo user (it kernel-panicked every 4 hours so I moved to musl).
+- I hate systemd, GNOME, Apple, and corporate tech. I am a perfectionist and brutally honest.
 
 ## Now Playing
 
@@ -25,42 +26,42 @@ Solo maintainer of [Euri Linux](https://github.com/Euri-Linux) — built on Arti
 <details>
 <summary>❓ So… what's the deal with your name?</summary>
 
-Used to go by a username online, but honestly? Just call me **Michał**. It's my real name, it's less confusing for everyone (including me), and I stopped pretending I'm a fictional gambling queen from a game I've never finished.
+Used to go by a username online, but honestly? Just call me **Michał**. It's my real name, it's less confusing for everyone (including me), and I stopped pretending I'm a fictional gambling queen from a game I've never finished. I also go by Toji, LukasX, Karlik, c-ludenberg, v311, and Celestia. Pick your favorite.
 
 </details>
 
 <details>
 <summary>❓ Why are you making a distro?</summary>
 
-Antergos meant a lot to people, and when it died, nobody picked it up. So I did. Antergos NeXT keeps that **spirit** going — Artix underneath, dinit as init, KDE Plasma, Calamares installer. It's my small way of keeping a piece of the Polish Linux scene alive. That, and someone has to keep the "install a distro in 2026" hobby alive.
+Antergos meant a lot to people, and when it died, nobody picked it up. So I did. But then I realized Artix and KDE were still too bloated for my taste, so I said "fuck it" and built **Euri Linux: Horizon** from absolute scratch. It's my small way of keeping a piece of the Polish Linux scene alive while also proving that musl libc, LLVM, `dinit`, and `apk` are the future. Also, someone has to keep the "install a distro in 2026" hobby alive.
 
 </details>
 
 <details>
-<summary>❓ Is this a fork or a reboot?</summary>
+<summary>❓ Is Horizon a fork or a reboot?</summary>
 
-Neither, really. It's its own thing — a community continuation. We build on Artix, not clone what Antergos was. New base, new packages, new tools. Same energy. If that makes me a fraud, so be it — I'm a fraud with a working ISO that has permission. 🔥
+Neither, really. It's a completely from-scratch ecosystem. We don't use a base. We have our own tooling (`hbuild`, `hu`, `noctix`), our own package manager wrappers, and our own libc (musl). The desktop is Niri, not KDE. If that makes me a fraud, so be it — I'm a fraud with an ISO that boots in 2 seconds, uses EROFS with zstd, and has cryptographic Ed25519 attestation. 🔥
 
 </details>
 
 <details>
 <summary>❓ You actually use Gentoo?</summary>
 
-Yeah. Like, *actually* use Gentoo. I went Gentoo → Artix → back to Gentoo — it's a cycle, okay? It taught me patience and how to fix things instead of reinstalling them. And yes, it compiles for hours. That's the point. The Gentoo scars are permanent. I even build ISOs on it, which is objectively a bad idea that I will keep doing.
+I *used* to. Like, *actually* used it. I went Gentoo → Artix → back to Gentoo → Chimera Linux. It taught me patience and how to fix things instead of reinstalling them. But compiling for hours just to watch the kernel panic every 4 hours got old. The Gentoo scars are permanent. Now I rawdog Chimera on Btrfs with `zstd` compression and patch `kernel/sched/fair.c` with BORE manually.
 
 </details>
 
 <details>
 <summary>❓ What are you working on right now?</summary>
 
-Shipping Euri Linux ISOs that don't break, tweaking the Calamares installer (online netinstall only, offline mode is a lie), and keeping the Polish Linux community fed. Also fighting the eternal battle of "why is this font rendering as boxes." It's the CJK fonts. It's always the CJK fonts.
+Shipping Horizon 26.11 (release delayed to November 15, 2026). Tweaking the `noctix` Rust ISO builder (it uses `bwrap` and `fakeroot` now). Fighting the eternal battle of getting NVK to not draw a pink line of death on the screen while running Niri. Also planning a `repo sync` of Android 16 (250GB) with the OOM killer disabled so I don't hard-lock my 32GB of DDR5. And fighting a brutal throat infection.
 
 </details>
 
 <details>
 <summary>❓ Why Neovim?</summary>
 
-Because terminals are better than GUIs and I will die on this hill. Calamares, artools, Neovim — that's the whole stack. It mostly works, and when it doesn't, that's what `git revert` is for. I am a professional.
+Because terminals are better than GUIs and I will die on this hill. `hbuild`, Niri, Neovim — that's the whole stack. It mostly works, and when it doesn't, that's what `git revert` is for. I am a professional.
 
 </details>
 
@@ -73,31 +74,64 @@ No. But I can make it take longer to boot. That's a different skill set, but it'
 
 <details>
 <summary>❓ Do you maintain other versions of Euri?</summary>
-Actually...yea i do its called Euri Linux: Horizon an distro that i built myself without any base that means my own tooling, libc, etc it uses the XBPS Package Manager from Void Linux and my own version of void-packages.
+
+The old Void/XBPS prototype is dead. Horizon is the future. We are on musl now. We have `kasanx` (TOML templates), our own Forgejo instance (`git.euri-linux.pl`) and cgit (`pkgs.euri-linux.pl`). We also have an attestation system that cryptographically signs ISOs with Ed25519. If you're an untrusted dev, the builder throws a massive red ASCII warning and forces ISO deletion. 
+
+</details>
+
+<details>
+<summary>❓ What happened to your MSI laptop?</summary>
+
+It got pawned. Family financial crisis, unpaid power bills, the whole nine yards. RIP MSI GV72 8RE (i7-8750H, GTX 1060). I found it online at `allelombard1133` on Allegro for 1800 zł. I'm currently surviving on my desktop `noctis` and restricted power usage (only turned on after 16:00). Don't ask.
+
+</details>
+
+<details>
+<summary>❓ Why do you hate systemd and GNOME?</summary>
+
+Because they are the epitome of corporate tech bloat. systemd tries to do everything and ends up being a massive, unmaintainable dependency hell. GNOME treats its users like toddlers who can't be trusted with a settings menu. I use `dinit` and `doas`. I don't need a corporation holding my hand.
+
+</details>
+
+<details>
+<summary>❓ What's the deal with the Tom Pearl TikToks?</summary>
+
+I have no idea. I was in the middle of a 39°C fever, my FYP got hijacked by a guy eating his own... artisanal waste... and a turtle eating a sidewalk log. The simulation is a dark humor psychological thriller and I'm just living in it.
+Please save me-
+
+</details>
+
+<details>
+<summary>❓ What music do you listen to while coding?</summary>
+
+S3RL, Maretu, Reol, Inabakumori. And occasionally Polish hits like: Akcent, Za-No-Za, etc My humor is terminal brainrot, deal with it.
+
 </details>
 
 ## Current Focus
 
-- Shipping stable Antergos NeXT ISOs
-- Calamares installer tweaks (online only netinstall)
-- Keeping the Polish Linux community fed
+- Shipping Horizon 26.11 (Nov 15, 2026)
+- Polishing the `noctix` ISO builder (EROFS + zstd)
+- Patching BORE into the kernel scheduler (`fair.c`)
+- Surviving the fever arc and praying my doctor isn't on L4 again
 
 ## Favorite Tools
 
 | Tool | Reason |
 |---|---|
-| KDE Plasma 6.6.6 | Wayland, cursed, not GNOME |
+| Niri | Rust-based scrollable tiling. SwayFX drew a pink line of death on NVK. |
 | Neovim | Terminal > GUI |
-| Calamares | Best installer framework |
-| artools (buildiso using a container)| It works (mostly in Podman) |
-| Ryzen 5 7600X | 12 threads, 5.65 GHz, zero chill (survived compiling too) |
+| `noctix` | My Rust ISO builder. Rootless by default with `bwrap`. |
+| Chimera Linux | musl, LLVM, dinit. The host OS of choice. |
+| Ryzen 5 7600X | 12 threads, 5.61 GHz, zero chill (survived compiling too) |
 
 ## Projects
 
 | Repo | Description |
 |---|---|
-| [euri-iso](https://github.com/Euri-Linux/euri-iso) | Live ISO — Artix, dinit, KDE Plasma, Calamares |
-| [euri-packages](https://github.com/Antergos-NeXT/euri-packages) | Custom package repo |
+| [git.euri-linux.pl](https://git.euri-linux.pl) | The main self-hosted Forgejo for Horizon 26.11 |
+| `noctix` | Rust-based ISO builder (private/self-hosted) |
+| `hbuild` | Rust build system for Horizon |
 | [solara](https://github.com/celestia-foundation/solara) | Linux distro (before Euri Linux & not maintained.... kinda) |
 | [solara-pkgs](https://github.com/celestia-foundation/solara-pkgs) | AUR packages for Solara (not maintained) |
 
