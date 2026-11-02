@@ -98,8 +98,7 @@ It got pawned. Family financial crisis, unpaid power bills, the whole nine yards
 <details>
 <summary>❓ What's the deal with the Tom Pearl TikToks?</summary>
 
-I have no idea. I was in the middle of a 39°C fever, my FYP got hijacked by a guy eating his own... artisanal waste... and a turtle eating a sidewalk log. The simulation is a dark humor psychological thriller and I'm just living in it.
-Please save me-
+**WE DO NOT TALK ABOUT TOM PEARL 😭😭**
 
 </details>
 
