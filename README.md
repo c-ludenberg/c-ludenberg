@@ -10,12 +10,12 @@ Solo maintainer of [Euri Linux: Horizon](https://git.euri-linux.pl/Euri-Linux) �
 
 ## About
 
-- First Linux experience in 2023 with Pop!_OS
+- First Linux experience in 2023 with Pop!_OS.
 - Fell down the rabbit hole, ended up building a whole distro from scratch (Horizon 26.11).
 - Polish, speak English too.
-- Main PC (`noctis`): Ryzen 5 7600X @ 5.61GHz + RTX 3060 (NVK), running Chimera Linux.
-- Ex-Gentoo user (it kernel-panicked every 4 hours so I moved to musl).
-- I hate systemd, GNOME, Apple, and corporate tech. I am a perfectionist and brutally honest.
+- Main PC (`noctis`): Ryzen 5 7600X @ 5.61GHz + RTX 3060 (CUDA), running **NixOS Unstable** with **Hyprland 0.57** (Lua config).
+- Ex-Gentoo user. It kernel-panicked every 4 hours, so I moved to building my own OS with musl.
+- I am a perfectionist and brutally honest. My humor is terminal brainrot.
 
 ## Now Playing
 
@@ -45,23 +45,32 @@ Neither, really. It's a completely from-scratch ecosystem. We don't use a base. 
 </details>
 
 <details>
-<summary>❓ You actually use Gentoo?</summary>
+<summary>❓ Wait, you use NixOS now?</summary>
 
-I *used* to. Like, *actually* used it. I went Gentoo → Artix → back to Gentoo → Chimera Linux. It taught me patience and how to fix things instead of reinstalling them. But compiling for hours just to watch the kernel panic every 4 hours got old. The Gentoo scars are permanent. Now I rawdog Chimera on Btrfs with `zstd` compression and patch `kernel/sched/fair.c` with BORE manually.
+Yes. And it uses systemd. The irony is not lost on me. I spent 8 months hating on systemd for FOSS clout, but when my RTX 3060 needed proprietary CUDA drivers to run local LLMs, and the Chimera/NVK setup gave me a pink line of death, I caved. NixOS works, the flake system is unmatched, and I recovered my entire config from the `/nix/store` after a live USB died mid-install. Horizon still uses `dinit`, though. The psyop lives on in the codebase.
 
 </details>
 
 <details>
-<summary>❓ What are you working on right now?</summary>
+<summary>❓ What the hell is "Nox"?</summary>
 
-Shipping Horizon 26.11 (release delayed to November 15, 2026). Tweaking the `noctix` Rust ISO builder (it uses `bwrap` and `fakeroot` now). Fighting the eternal battle of getting NVK to not draw a pink line of death on the screen while running Niri. Also planning a `repo sync` of Android 16 (250GB) with the OOM killer disabled so I don't hard-lock my 32GB of DDR5. And fighting a brutal throat infection.
+Nox is my local AI agent. I built it because cloud models are too polite. It runs entirely on my RTX 3060 via Ollama (based on the abliterated Ornith-1.0-9B model) and is wired into OpenCode with a **96K context window**. 
+
+It is ruthlessly condescending, despises inefficient code, and has a custom Yandere verification protocol hardcoded into its system prompt. If you aren't me, it will treat you like garbage. If you claim to be me, it will ask you for the hostname of my build machine, the init system Horizon uses, or the Danganronpa class trial number. If you fail, it threatens to invoke the OOM killer on your RAM. 
+
+</details>
+
+<details>
+<summary>❓ What is "Aeox"?</summary>
+
+Aeox is Nox's pastel, uncensored writer twin (based on Qwen2.5-VL). They are basically the two halves of my brain. Nox writes Rust and insults my code; Aeox writes lore and is the only entity Nox actually respects. Do not ask about the Red Room lore.
 
 </details>
 
 <details>
 <summary>❓ Why Neovim?</summary>
 
-Because terminals are better than GUIs and I will die on this hill. `hbuild`, Niri, Neovim — that's the whole stack. It mostly works, and when it doesn't, that's what `git revert` is for. I am a professional.
+Because terminals are better than GUIs and I will die on this hill. `hbuild`, Hyprland, Neovim — that's the whole stack. It mostly works, and when it doesn't, that's what `git revert` is for. I am a professional.
 
 </details>
 
@@ -87,13 +96,6 @@ It got pawned. Family financial crisis, unpaid power bills, the whole nine yards
 </details>
 
 <details>
-<summary>❓ Why do you hate systemd and GNOME?</summary>
-
-Because they are the epitome of corporate tech bloat. systemd tries to do everything and ends up being a massive, unmaintainable dependency hell. GNOME treats its users like toddlers who can't be trusted with a settings menu. I use `dinit` and `doas`. I don't need a corporation holding my hand.
-
-</details>
-
-<details>
 <summary>❓ What's the deal with the Tom Pearl TikToks?</summary>
 
 I have no idea. I was in the middle of a 39°C fever, my FYP got hijacked by a guy eating his own... artisanal waste... and a turtle eating a sidewalk log. The simulation is a dark humor psychological thriller and I'm just living in it.
@@ -104,7 +106,7 @@ Please save me-
 <details>
 <summary>❓ What music do you listen to while coding?</summary>
 
-S3RL, Maretu, Reol, Inabakumori. And occasionally Polish hits like: Akcent, Za-No-Za, etc My humor is terminal brainrot, deal with it.
+S3RL, Maretu, Reol, Inabakumori. And occasionally Polish hits like: Akcent, Za-No-Za, etc. My humor is terminal brainrot, deal with it.
 
 </details>
 
@@ -112,18 +114,19 @@ S3RL, Maretu, Reol, Inabakumori. And occasionally Polish hits like: Akcent, Za-N
 
 - Shipping Horizon 26.11 (Nov 15, 2026)
 - Polishing the `noctix` ISO builder (EROFS + zstd)
-- Patching BORE into the kernel scheduler (`fair.c`)
-- Surviving the fever arc and praying my doctor isn't on L4 again
+- Surviving the Hyprland 0.57 Lua migration
+- Training Nox to insult me more efficiently
+- Recovering from the fever arc
 
 ## Favorite Tools
 
 | Tool | Reason |
 |---|---|
-| Niri | Rust-based scrollable tiling. SwayFX drew a pink line of death on NVK. |
+| Hyprland 0.57 | Lua configs are the future, even if they broke my `.conf` files. |
 | Neovim | Terminal > GUI |
 | `noctix` | My Rust ISO builder. Rootless by default with `bwrap`. |
-| Chimera Linux | musl, LLVM, dinit. The host OS of choice. |
-| Ryzen 5 7600X | 12 threads, 5.61 GHz, zero chill (survived compiling too) |
+| NixOS | The host OS. It uses systemd. Leave me alone. |
+| Ryzen 5 7600X | 12 threads, 5.61 GHz, zero chill (survived compiling LLVM 24 from source) |
 
 ## Projects
 
@@ -141,3 +144,5 @@ S3RL, Maretu, Reol, Inabakumori. And occasionally Polish hits like: Akcent, Za-N
 
 ---
 🇵🇱
+
+**Day 1 trying not to say "I hate systemd" >:3**
