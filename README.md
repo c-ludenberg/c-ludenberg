@@ -1,4 +1,4 @@
-# Michał
+# Maja
 
 *Poland • Linux • Musl/LLVM*
 
@@ -26,7 +26,7 @@ Solo maintainer of [Euri Linux: Horizon](https://git.euri-linux.pl/Euri-Linux) �
 <details>
 <summary>❓ So… what's the deal with your name?</summary>
 
-Used to go by a username online, but honestly? Just call me **Michał**. It's my real name, it's less confusing for everyone (including me), and I stopped pretending I'm a fictional gambling queen from a game I've never finished. I also go by Toji, LukasX, Karlik, c-ludenberg, v311, and Celestia. Pick your favorite.
+Used to go by a username online, but honestly? Just call me **Maja**. The old name is dead, don't use it. I go by Maja, and Toji on some boxes. Pick your favorite, just not the deadname.
 
 </details>
 
